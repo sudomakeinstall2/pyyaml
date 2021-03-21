@@ -21,6 +21,6 @@ jobs:
       env:
         CYDERIAN_USERNAME: ${{ secrets.CYDERIAN_USERNAME }}
         CYDERIAN_PASSWORD: ${{ secrets.CYDERIAN_PASSWORD }}
-        REPO: https://github.com/sudomakeinstall2/js-yaml.git
+        REPO: https://github.com/sudomakeinstall2/pyyaml.git
       run: |
         python .github/cyd.py
