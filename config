@@ -1,0 +1,4 @@
+pathToExecutable: fuzz.py
+args: ""
+lang: python
+fuzzer: pyfuzz
